@@ -1,0 +1,23 @@
+$text-color:black;
+$text-color2:white;
+$bg-color:#dadada;
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $bg-color;
+    color: $text-color;
+}
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: $text-color2;
+    font-weight: bolder;
+    font-size: 2rem;
+}
